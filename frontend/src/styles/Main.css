@@ -1,0 +1,88 @@
+/* main styles */
+.main {
+    border-left : 1px solid var(--border);
+    border-right: 1px solid var(--border);
+    align-items: center;
+      justify-content:center;
+
+}
+
+.home {
+    padding-left : 2.5rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.new-tweet {
+    padding              : 1rem;
+    display              : grid;
+    grid-template-columns: 1fr 9fr;
+    border-bottom        : 1rem solid var(--thick-border);
+}
+
+.new-tweet .left,
+.right {
+    padding: 0 1rem;
+}
+
+.new-tweet input {
+    padding    : 2rem 0;
+    background : transparent;
+    border     : none;
+    color      : var(--light);
+    font-size  : 2rem;
+    font-weight: 700;
+}
+
+.new-tweet-options {
+    padding-right  : 1rem;
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+}
+
+.new-tweet .add-icons {
+    margin-right: 1rem;
+}
+
+.new-tweet .add-icons svg {
+    width  : 3rem;
+    fill   : var(--sky-blue);
+    padding: 1rem;
+}
+
+.new-tweet .add-icons svg:first-child {
+    padding-left: 0;
+}
+
+.container{
+     margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  justify-content:center;
+  align-items: center;
+  max-width: 800px;
+  margin: 25vh auto;
+ 
+
+}
+.login-form{
+    
+  border-radius: 5px;  
+  display: flex;
+  flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+     justify-content:center;
+  align-items: center;
+
+  
+}
+.input {
+    
+     border-radius: 25px;
+  margin: 10px;
+  padding: 10px 20px;
+   height: "25px" ;
+   text-align: center;
+   
+}
